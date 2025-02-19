@@ -1,46 +1,39 @@
-# 项目素材 部署指南
+# GeneralMaterials 项目素材库
 
-这个项目包含一个所有格式的项目素材，可以通过以下步骤免费部署到 GitHub Pages：
+## 项目简介
 
-## 部署步骤
+这是一个通用项目素材库，包含多种格式的素材文件。目前主要收录了 DeepSeek 相关的 logo 素材，并支持通过 GitHub Pages 进行在线访问和使用。
 
-1. 创建GitHub仓库
-   - 访问 https://github.com/AyangCoder
-   - 点击 "New" 创建新的仓库
-   - 将仓库名设置为：`GeneralMaterials`
-   - 确保仓库为公开（Public）
+## 安装和运行
 
-2. 上传文件
-   - 将 DeepSeek 目录下的所有 logo 文件上传到仓库
-   - 将 README.md 文件上传到仓库
+本项目无需安装，所有素材通过 GitHub Pages 在线访问即可。
 
-3. 启用 GitHub Pages
-   - 进入仓库设置（Settings）
-   - 找到 Pages 设置部分
-   - 在 Branch 部分选择 main 分支
-   - 点击 Save 保存设置
+### 在线访问
 
-4. 访问素材
-   - 部署完成后，可以通过以下URL访问素材：
-   - `https://ayangcoder.github.io/GeneralMaterials/DeepSeek/deepseek_logo.svg`
-   - `https://ayangcoder.github.io/GeneralMaterials/DeepSeek/deepseek_logo.png`
-   - `https://ayangcoder.github.io/GeneralMaterials/DeepSeek/deepseek_logo_large.png`
+所有素材文件可通过以下 URL 格式访问：
+- SVG 格式：`https://ayangcoder.github.io/GeneralMaterials/DeepSeek/deepseek_logo.svg`
+- PNG 格式：`https://ayangcoder.github.io/GeneralMaterials/DeepSeek/deepseek_logo.png`
+- 大尺寸 PNG：`https://ayangcoder.github.io/GeneralMaterials/DeepSeek/deepseek_logo_large.png`
 
-## 使用方法
+### 使用方法
 
-在HTML中引用素材：
+1. 在 HTML 中引用：
 ```html
 <img src="https://ayangcoder.github.io/GeneralMaterials/DeepSeek/deepseek_logo.svg" alt="deepseek_logo">
 ```
 
-在Markdown中引用素材：
+2. 在 Markdown 中引用：
 ```markdown
 ![Logo](https://ayangcoder.github.io/GeneralMaterials/DeepSeek/deepseek_logo.svg)
 ```
 
-## 注意事项
+## 问题反馈
 
-- 确保仓库为公开仓库
-- 部署可能需要几分钟时间生效
-- 建议使用HTTPS协议访问
-- 如需修改或更新素材，直接在GitHub仓库中操作即可
+如果您在使用过程中遇到任何问题或有建议：
+
+- 发送邮件至：zhangyangmxjc@163.com
+- 或在 [GitHub Issues](https://github.com/AyangCoder/GeneralMaterials/issues) 页面提交问题
+
+## 许可说明
+
+本项目遵循 MIT 许可证。您可以自由使用、修改和分发本项目中的素材，但需要保留原始版权和许可声明。
